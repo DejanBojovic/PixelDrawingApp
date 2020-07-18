@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 2;
 }
 
 /* crayon */
@@ -50,7 +51,7 @@ body {
     display: none;
     position: relative;
     top: 70px;
-    background-color: rgba(252, 211, 3, 0.3);
+    background-color: #ffef96;
     height: 130px;
     width: 300px;
     padding: 10px;
@@ -84,7 +85,7 @@ body {
     display: none;
     position: relative;
     top: 70px;
-    background-color: rgba(252, 211, 3, 0.3);
+    background-color: #ffef96;
     height: 50px;
     width: 110px;
     padding: 10px;
@@ -118,7 +119,7 @@ body {
     display: none;
     position: relative;
     top: 10px;
-    background-color: rgba(252, 211, 3, 0.3);
+    background-color: #ffef96;
     height: 50px;
     width: 130px;
     padding: 10px;
