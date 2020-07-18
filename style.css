@@ -149,7 +149,7 @@ body {
 .main {
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 29.6%;
 }
 
 /* rows that contain pixels */
@@ -160,9 +160,10 @@ body {
 
 /* divs that represent pixels */
 .square {
-    height: 10px;
-    width: 10.2px;
+    height: 10.2px;
+    width: 10.4px;
     transition: .2s;
+    border: 1px solid black;
 }
 
 /* media queries */
@@ -183,7 +184,7 @@ body {
 
     .square {
         height: 10px;
-        width: 8.5px;
+        width: 8.7px;
     }
 
     .main .row:last-child {
@@ -208,7 +209,7 @@ body {
 
     .square {
         height: 10px;
-        width: 7.7px;
+        width: 7.8px;
     }
 
     .main .row:last-child {
@@ -233,7 +234,7 @@ body {
 
     .square {
         height: 8.5px;
-        width: 7.3px;
+        width: 7.4px;
     }
 
 }
@@ -248,6 +249,6 @@ body {
 
     .square {
         height: 8.8px;
-        width: 6.8px;
+        width: 6.95px;
     }
 }
